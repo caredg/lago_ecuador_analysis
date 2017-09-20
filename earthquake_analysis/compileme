@@ -1,0 +1,10 @@
+#clean and compile analysis code without linking
+\rm EQPulseAnalysis.o
+g++ `root-config --cflags` -c EQPulseAnalysis.C
+
+#clean and compile steering code without linking
+\rm runEQPulseAnalysis.o
+g++ `root-config --cflags` -c runEQPulseAnalysis.C
+
+#link everything together agains ROOT libraries
+g++ EQPulseAnalysis.o runEQPulseAnalysis.o `root-config --libs` -o runEQPulseAnalysis
