@@ -183,6 +183,8 @@ CargaPicoCut4 = new TH1D("CargaPicoCut4", "Carga/Pico cut4",1000,0,100);
     
    h_peak2 = new TH1D("h_peak2", "peak2",100000 , 0, 1100);
    h_peak2_cut = new TH1D("h_peak2_cut", "peak2_cut",100000 , 0, 1100);
+
+//All these can be declared under a loop
 /////////////////////////////////////////////////////////////////////////////////////
  timeIn = new TH1D("timeIn","timeIn",nbin,down,up);
  timeT = new TH1D("timeT","timeT",nbin,down,up);

@@ -21,6 +21,9 @@ Converts files .dat to .root from DATA LAGO
    It will generate a root file <filename>.root
  */
 
+
+//It good be good to comment code
+
 #include <iostream>
 #include <fstream>
 #include <string>
