@@ -1,4 +1,4 @@
-This is a simple package for converting a set of LAGO dat files into root files.
+This is a simple package for converting a set of LAGO dat files (or any other file compatible with LAGO electronics) into root files.
 
 DESCRIPTION:
 ============
