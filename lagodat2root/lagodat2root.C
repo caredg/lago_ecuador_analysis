@@ -8,9 +8,9 @@ Converts files .dat to .root from DATA LAGO
 // Modified by Ricardo Escobar and Edgar Carrera
 //
 /* Modification History:
-   - 23 march 2017: several clean ups from Ricardo to make it
+   - 23 march 2018: several clean ups from Ricardo to make it
    compatible with new c++ standards.  
-   - 23 march 2017: we have made it compilable.  It compiles with
+   - 23 march 2018: we have made it compilable.  It compiles with
    g++ -o lagodat2root lagodat2root.C `root-config --glibs --cflags`
    or with an equivalent Makefile with make
 
