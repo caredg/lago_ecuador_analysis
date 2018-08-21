@@ -23,7 +23,8 @@ INSTRUCTIONS:
 
 1. Download the code to your favorite area:
 
-> git clone https://github.com/caredg/lagodat2root
+> git clone https://github.com/caredg/lago_ecuador_analysis
+> cd lagodat2root
 
 2. Compile the code doing:
 
