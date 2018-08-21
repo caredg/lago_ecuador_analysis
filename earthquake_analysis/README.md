@@ -17,6 +17,7 @@ INSTRUCTIONS:
 1. Download the code to your favorite area:
 
 > git clone https://github.com/caredg/lago_ecuador_analysis
+
 > cd earthquake_analysis
 
 2. Make whatever changes to the code (if needed)
