@@ -1,10 +1,1 @@
-Estas son las herramientas que use para utilizar el método de MWA
 
-El script mklist.sh recibe un archivo de histograma en C. como limpiosMWA.C. Como output escribe
-un archivo solamente con el número de entrada y el flujo en esa entrada separado por una coma. El
-Output de ejemplo que subi es limpios.lst
-
-Luego el anterior output (limpios.lst) es el input de MWA.py que escribe dos archivos, uno con los 
-promedios de flujo en una ventana de 5 minutos y otro con las desviaciones estándar.
-
-Por último para hacer un root file con histogramas de los promedios y desviaciones se corre rootMaker.py
